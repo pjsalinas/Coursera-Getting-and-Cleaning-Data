@@ -1,4 +1,4 @@
-# project name
+<!-- project name -->
 <h2>Peer Project Review Assigment</h2><br />
 <h4>Program Assigment for the Coursera.com Scientist Toolbox path</h4>
 # installation
