@@ -1,6 +1,6 @@
 Getting And Cleaning Data
 
-Program Assignments for the Coursera.com course Getting and Cleaning Data
+Program Assignments for the Coursera.com path The Scientist Toolbox
 
 For the Period Started in February 2015
 
