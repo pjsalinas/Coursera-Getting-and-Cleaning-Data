@@ -1,5 +1,5 @@
 <!-- project name -->
-<h1>Peer Project Review Assigment</h1><br />
+<h1>Peer Project Review Assigment</h1>
 <h3>Getting and Cleaning Data</h3>
 <h5>Program Assigment for the Coursera.com Scientist Toolbox path</h5>
 <!-- installation -->
