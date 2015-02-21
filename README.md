@@ -1,4 +1,4 @@
-h2. Getting And Cleaning Data
+<h2>Getting And Cleaning Data</h2>
 
 Program Assignments for the Coursera.com path The Scientist Toolbox
 
