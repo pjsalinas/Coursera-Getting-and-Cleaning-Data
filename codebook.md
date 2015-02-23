@@ -19,4 +19,4 @@
 <p>Change the data activity row to use the activity labels</p>
 <p>Saves the Meand and Standard Deviasion into the file './results/mean_and_std.csv', contains 10299 rows and 81 columns</p>
 <p>Save the tidy dataset into tidy_dataset into the file './results/tidy_dataset.csv', contains 180 rows and 81 columns</p>
-<p>You can change the format of both files to '.txt' on the function saveresults, file <- paste(rFolder, "/", name, ".txt", sep="") if there is need for that</p>
+<p>You can change the format of both files to '.txt' on the function saveresults, 'file <- paste(rFolder, "/", name, ".txt", sep="")' if there is need for that</p>
