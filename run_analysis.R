@@ -24,7 +24,7 @@ if(!file.exists(rFolder)){
 	dir.create(rFolder)
 }
 #
-# read txt files and convert them to data.frame
+# function to read txt data files and convert them to data.frame
 gettables <- function(filename, cols = NULL){
 	print(paste("Getting Tables: ", filename))
 	f <- paste(dFolder, filename, sep="/")
@@ -40,13 +40,13 @@ gettables <- function(filename, cols = NULL){
 # run and check gettables
 features <- gettables("features.txt")
 #
-# read data and build
+# function to read data and prepare them
 getdata <- function(type, features){
 	print(paste("Getting Data", type))
 	sData <- gettables(paste(type, "/", "subject_", type, ".txt", sep=""),"id")
 	y_data <- gettables(paste(type,"/","y_",type,".txt",sep=""),"activity")
 	x_data <- gettables(paste(type,"/","X_",type,".txt",sep=""),features$V2)
-	return (cbind(subject_data,y_data,x_data))
+	return (cbind(sData,y_data,x_data))
 }
 # run and check data
 test <- getdata("test", features)
@@ -55,7 +55,7 @@ train <- getdata("train", features)
 # save the resulting data in the indicated folder
 saveresults <- function(data,name){
 	print(paste("saving results", name))
-	file <- paste(resultsfolder, "/", name,".csv" ,sep="")
+	file <- paste(rFolder, "/", name,".csv" ,sep="")
 	write.csv(data,file)
 }
 # after getting prepare the files
